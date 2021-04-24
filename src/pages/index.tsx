@@ -13,7 +13,7 @@ export default IndexPage
 export const getServerSideProps: GetServerSideProps<Props> = async () => {
   return {
     props: {
-      ready: 'true',
+      ready: 'yes',
     },
   }
 }
